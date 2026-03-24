@@ -1,0 +1,100 @@
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background:linear-gradient(whitesmoke, rgb(136, 197, 136));
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif; 
+    background-color: whitesmoke;
+}
+
+.roda-teto {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: darkseagreen;
+}
+
+.roda-teto img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.roda-teto h1{
+    font-size:xx-large;
+    margin: 0;
+}
+
+.site {
+    flex: 1;
+    margin-top: 90px;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 400px;
+    padding: 20px;
+}
+
+.container-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+    gap: 50px;
+}
+
+.invertido {
+    flex-direction: row-reverse;
+}
+
+.texto {
+    flex: 1;
+}
+
+.imagem {
+    flex: 1;
+}
+
+.imagem img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+}
+
+.imagem2 img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    display: block;
+}
+
+.roda-pe {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkseagreen;
+    margin-top: auto;
+}
+
+.roda-pe h1 {
+    font-size: medium;
+    margin: 0;
+}
