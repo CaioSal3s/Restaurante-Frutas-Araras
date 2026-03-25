@@ -82,6 +82,47 @@ body {
     display: block;
 }
 
+/* Estilo da Lista */
+.cardapio-frutas {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.cardapio-frutas li {
+  padding: 12px;
+  border-bottom: 1px solid #d1e7dd;
+  color: #2d4a22;
+}
+
+.cardapio-frutas li::before {
+  content: "🦜";
+  margin-right: 10px;
+}
+
+/* Estilo da Tabela */
+.tabela-araras {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+
+.tabela-araras th, 
+.tabela-araras td {
+  border: 1px solid #c2d6ca;
+  padding: 12px;
+  text-align: left;
+}
+
+.tabela-araras th {
+  background-color: #27ae60;
+  color: white;
+}
+
+.tabela-araras tr:nth-child(even) {
+  background-color: #f2fcf5;
+}
+
 .roda-pe {
     bottom: 0;
     left: 0;
